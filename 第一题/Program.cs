@@ -15,16 +15,16 @@ namespace 第一题
 
             ArrayList list1 = new ArrayList(new string[] {"a","b","c","d","e" });
             ArrayList list2 = new ArrayList(new string[] { "d", "e", "f", "g", "h" });
-            ArrayList list3 = new ArrayList();
-            if (!list1.Contains(list2))
-            {
-                list3.AddRange(list1);
-                list3.AddRange(list2);
-            }
 
-            foreach (string  item in list3)
+            list1.AddRange(list2);
+
+            //去除元素中重复的元素
+            string[] str=list1.Cast<string>().Distinct().ToArray();
+
+            foreach (string item in str)
             {
                 Console.Write(item+" ");
+                        
             }
 
             Console.ReadKey();

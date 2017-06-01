@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "第七题", "第七题\第�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "第八题", "第八题\第八题.csproj", "{690A8E10-A58E-4D4F-9E16-56C824881B68}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "第十题", "第十题\第十题.csproj", "{211B2352-C86D-48BF-8345-B926AFFC9B73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "第十一题", "第十一题\第十一题.csproj", "{DC2812EF-A15A-4738-863F-15654E146DAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{690A8E10-A58E-4D4F-9E16-56C824881B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{690A8E10-A58E-4D4F-9E16-56C824881B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{690A8E10-A58E-4D4F-9E16-56C824881B68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{211B2352-C86D-48BF-8345-B926AFFC9B73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{211B2352-C86D-48BF-8345-B926AFFC9B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{211B2352-C86D-48BF-8345-B926AFFC9B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{211B2352-C86D-48BF-8345-B926AFFC9B73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC2812EF-A15A-4738-863F-15654E146DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC2812EF-A15A-4738-863F-15654E146DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC2812EF-A15A-4738-863F-15654E146DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC2812EF-A15A-4738-863F-15654E146DAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
