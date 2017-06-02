@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace 第十一题
 {
-    class Book
+    class Book : IComparable
     {
         private int Price;
         private string Title;
@@ -51,6 +51,12 @@ namespace 第十一题
             {
                 Title = value;
             }
+        }
+
+        public int CompareTo(object obj)
+        {
+            Book book = (Book)obj;
+            return this.Price.CompareTo(book.Price);
         }
     }
 }
